@@ -11,6 +11,7 @@ class EyeSlide extends React.Component{
     constructor(props){
         super(props)
         this.state={
+            openKeys:[],
             defaultOpenKeys:'member',
             defaultSelectedKeys:'toMemberArchives',
             auth:''
@@ -106,6 +107,15 @@ class EyeSlide extends React.Component{
             authJson
         })
     }
+    menuOpenChange(openKeys){
+        var oldOpenKey = this.state.openKeys[0] ;//旧的被打开的项的key值
+        var newKey = _.filter(openKeys,(e)=>{
+            return e!=oldOpenKey;
+        })
+        this.setState({
+            openKeys:newKey
+        })
+    }
     menuListClickHandler(){
     }
    render(){
@@ -124,7 +134,7 @@ class EyeSlide extends React.Component{
             })
         }
         return (
-            <Menu mode="inline" className="eye-common-slider-menu">
+            <Menu openKeys={this.state.openKeys}  onOpenChange={this.menuOpenChange.bind(this)} mode="inline" className="eye-common-slider-menu" selectable={false}>
                 {children}
             </Menu>
         )

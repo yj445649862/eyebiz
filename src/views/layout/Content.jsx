@@ -11,8 +11,8 @@ class EyeContent extends React.Component{
     render(){
         const props = this.props
         return (
-            <Layout style={{background:"red"}}>
-                <Sider width={150}   collapsible  className="eye-common-slider">
+            <Layout>
+                <Sider width={150}  collapsible  className="eye-common-slider">
                     <EyeSlide {...props}/>
                 </Sider>
                 <Layout style={{ padding: '5px 5px 5px'}}>
