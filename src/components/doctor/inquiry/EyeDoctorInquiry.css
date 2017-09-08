@@ -1,0 +1,6 @@
+.ant-select-lg .ant-select-selection--single{
+    height:100% ;
+}
+.ant-select-auto-complete.ant-select-lg .ant-input{
+    height:100%;
+}

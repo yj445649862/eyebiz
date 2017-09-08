@@ -1,0 +1,9 @@
+.login-layout{
+    height:100%;
+}
+.login-layout .ant-layout-header {
+    background: #22b6e7;
+    padding: 0 5px;
+    height: 64px;
+    line-height: 64px;
+}

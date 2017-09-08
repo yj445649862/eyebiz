@@ -1,0 +1,114 @@
+html,body,#root{
+    height:100%;
+    font-size: 14pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimSun, sans-serif;
+}
+.eye-layout{
+    height:100%;
+    width: 100%;
+}
+.eye-layout .ant-layout-header {
+    background: #22b6e7;
+    padding: 0 5px;
+    height: 64px;
+    line-height: 64px;
+}
+.eye-common-content{
+    background:#EAF3F5;
+    padding:0px 10px 0px 10px ;
+}
+.eye-common-content .eye-common-content-details{
+    height: 100%;
+}
+.eye-common-content .eye-common-content-nav{
+    height: 24px;
+    font-size: 13px;
+}
+.ant-menu-item-selected{
+    background: #EAF3F5;
+}
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub,.ant-layout-sider-trigger{
+    background: #22b6e7;
+}
+.eye-common-slider{
+    border-radius: 5px;
+    background: #EAF3F5;
+}
+.eye-common-slider-menu{
+    height: 100%;
+    borderRight: 0;
+    background: #EAF3F5;
+}
+.eye-layout-menu{
+    border: 0;
+}
+.eye-commont-logo {
+    width: 120px;
+    height: 31px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+.eye-common-barcode{
+    width: 140px;
+    margin-right: 6px;
+}
+.eye-common-notice{
+    width: 40px;
+    height:30px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background: #FBF75A;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.eye-common-header-icon{
+    line-height: 25px;
+}
+.eye-common-content-platform{
+    height:100%;
+    width: 100%;
+    background:#EAF3F5;
+    border-radius: 5px;
+}
+.eye-common-height{
+    height:100%
+}
+.eye-common-table-condition{
+  font-size: 12px;
+}
+.eye-common-table-condition .eye-common-table-condtion-content{
+    padding: 5px;
+    height:60px;
+}
+.eye-common-table-condition .eye-common-table-condtion-oneLine{
+    line-height: 30px;
+}
+.eye-common-table-condition .eye-common-table-condtion-content .eye-common-condtion-content-secondLine{
+    padding-top: 5px;
+}
+.eye-common-button-bottom{
+    position: absolute;
+    right:30px;
+    bottom:10px;
+}
+.eye_common_pointer{
+    cursor: pointer;
+}
+eye-common-height-half{
+    height:50%;
+}
+.eye_common_title{
+    height:35px;
+    background: #01D9FE;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 5px;
+    border-radius: 3px;
+    margin-top: 3px;
+}

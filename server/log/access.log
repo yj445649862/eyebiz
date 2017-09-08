@@ -1,0 +1,1 @@
+::ffff:127.0.0.1 - - [18/Apr/2017:01:49:11 +0000] "GET /auth/login HTTP/1.1" 304 - "http://localhost:8080/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"

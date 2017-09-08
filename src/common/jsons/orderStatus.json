@@ -1,0 +1,12 @@
+{
+   "wait_pay":"待支付",
+   "expired":"已失效",
+   "apply_refund":"退款申请中",
+   "paid":"已支付",
+   "pay_fail":"支付失败",
+   "paying":"正在支付",
+   "closed":"已关闭",
+   "refunded":"退款成功",
+   "refunding":"退款中",
+   "refund_fail":"退款失败"
+}

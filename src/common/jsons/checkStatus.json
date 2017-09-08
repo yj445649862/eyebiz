@@ -1,0 +1,14 @@
+{
+   "":"全部",
+   "paid":"未检",
+   "pending":"未付款",
+   "apply_refund":"退款申请中",
+   "refunding":"退款中",
+   "refunded":"退款成功",
+   "unfinished":"未完成",
+   "finished":"已完成",
+   "expired":"已失效",
+   "remote_pending":"远程阅片申请中",
+   "remote_doing":"远程阅片中",
+   "remote_withdraw":"远程阅片已退回"
+}
